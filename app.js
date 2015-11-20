@@ -5,7 +5,7 @@ angular.module('app').run(['$q', '$rootScope',function ($q, $rootScope) {
 }]);
 
 angular.module('app').controller('controller1', ['$scope', function ($scope) {
-    $scope.title = 'Sukhumi';
+    $scope.title = 'Ball';
     $scope.getDate = function() {
         return new Date().toString();
     };
